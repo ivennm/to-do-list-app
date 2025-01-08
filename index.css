@@ -1,0 +1,155 @@
+body {
+    color: black;
+    background-image: url('realistic-notebook-notepage-paper-background-4.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-position-y: top;
+    background-color: lightblue;
+
+}
+
+main {
+    border: 1px solid black;
+    height: 884px;
+    width: 600px;
+}
+
+
+
+
+.newItemEntry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#newItem {
+    width: 60%;
+    font-size: 20px;
+    padding: 10px;
+    height: fit-content;
+    
+}
+
+.addBtn {
+    font-size: 20px;
+    width: 80px;
+    height: 40px;
+}
+
+
+
+
+.listContainer {
+    justify-content: center;
+}
+
+
+.listTitle {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 40px;
+    
+}
+
+.clearBtn {
+    font-size: 20px;
+    width: 80px;
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        color: black;
+        background-image: url('realistic-notebook-notepage-paper-background-4.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        background-position-y: top;
+        background-color: lightblue;
+        font-family: sans-serif;
+    
+    }
+
+    
+    main {
+        border: 0px solid black;
+        height: 550px;
+        width: 368px;
+    }
+
+
+    .listTitle {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+
+
+
+    .newItemEntry {
+        margin-top: 1px;
+    }
+
+    #newItemEntry {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+
+    #task-input {
+        width: 40%; 
+        font-size: 16px;
+        padding: 8px; 
+    }
+
+    input[type="text"] {
+        border: 3px solid;
+        border-color: grey;
+    }
+
+    input::placeholder {
+        font-size: 20px;
+        font-family: comimc;
+    }
+
+    .addBtn {
+        font-size: 20px;
+        width: 80px;
+        height: 40px;
+    }
+
+    .clearBtn {
+        font-size: 20px;
+        width: 80px;
+        height: 40px;
+    }
+
+    #listItems {
+        font-size: 30px;
+    }
+
+    input[type="checkbox"] {
+        transform: scale(2.5);
+        margin: 30px;
+        margin-top: 0px;
+    }
+
+    .listContainer ul {
+        list-style-type: none;
+    }
+
+
+
+
+
+}
