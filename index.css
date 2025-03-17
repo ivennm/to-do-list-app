@@ -11,18 +11,18 @@ body {
 
 main {
     border: 1px solid black;
-    height: 884px;
-    width: 600px;
+    height: 1000px;
+    width: 1435px;
+    margin-left: 20px;
+    margin-top: 120px;
 }
-
-
-
 
 .newItemEntry {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    gap: 10px;
 }
 
 #newItem {
@@ -32,11 +32,16 @@ main {
     height: fit-content;
     
 }
+input {
+    width: 30%;
+    height: fit-content;
+    font-size: 25px;
+}
 
 .addBtn {
     font-size: 20px;
     width: 80px;
-    height: 40px;
+    height: 35px;
 }
 
 
@@ -49,15 +54,20 @@ main {
 
 .listTitle {
     display: flex;
-    align-items: center;
     font-size: 20px;
-    gap: 40px;
     
 }
 
 .clearBtn {
     font-size: 20px;
     width: 80px;
+    height: 35px;
+}
+
+.listContainer ul {
+    list-style-type: none;
+    font-size: 24px;
+    gap: 0px;
 }
 
 
@@ -86,7 +96,7 @@ main {
     .listTitle {
         display: flex;
         justify-content: center;
-        margin-top: 20px;
+        margin-top: 18px;
     }
 
 
